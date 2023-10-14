@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>TEMPERATURE</title>
+    
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body id="demo">
+    <div class="container">
+        <!-- <div class="icons">
+            <p>9:41pm</p>
+        </div> -->
+        <h2>Temparature converter</h2>
+        <div class="main_box">
+        <div class="box-1">
+        <label for="Degree">Degrees</label> <br>
+        <input id="input" type="text" placeholder="Enter degree" >
+        <hr>
+        </div>
+        <div class="box-2">
+            <label for="type">Type</label> <br>
+            <select name="type" id="select">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <!-- <option  value="celsius">Celsius</option> -->
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <hr>
+        </div>
+    </div>
+
+        <div class="result">
+            <label for="result">Result</label> <br>
+            <div id="location">
+                <hr>
+            </div>
+            
+        </div>
+        <button onclick="convert()" id="btn">
+            converter
+        </button>
+    </div>
+    <script src="temp.js"></script>
+</body>
+
+</html>
